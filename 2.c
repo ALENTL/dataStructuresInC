@@ -116,11 +116,11 @@ void sortByExchangingData(struct Node *start) {
 
 struct Node *sortByExchangingLinks(struct Node *start)
 {
-	struct Node *end,*r,*p,*q,*temp;
+	struct Node *end, *r, *p, *q, *temp;
 		
-	for(end=NULL; end!=start->next; end=p)
+	for(end = NULL; end != start->next; end = p)
 	{
-  		for(r=p=start; p->next!=end; r=p,p=p->next)
+  		for(r = p = start; p->next != end; r = p, p = p->next)
 		{
 			q=p->next;
 			if(p->next > q->next)
