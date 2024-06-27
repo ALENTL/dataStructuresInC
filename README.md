@@ -23,5 +23,5 @@
 ## 3. Merge two sorted lists (creating new list)
 - Merging by creating a new list
 
-## 4. Merge two sorted lists (without new list)
-- Merging without no new list
+## 4. Merge two sorted lists using links 
+- Merging by rearranging links 
