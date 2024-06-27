@@ -18,3 +18,4 @@
 
 ## 2. Sorting of Single Linked List
 - Sort by exchanging data
+- Sort by exchanging nodal links
