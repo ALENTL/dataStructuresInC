@@ -15,3 +15,6 @@
 - Delete a node in between nodes
 - Delete a node at the end
 - Reverse the list
+
+## 2. Sorting of Single Linked List
+- Sort by exchanging data
