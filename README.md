@@ -19,3 +19,6 @@
 ## 2. Sorting of Single Linked List
 - Sort by exchanging data
 - Sort by exchanging nodal links
+
+## 3. Merge two sorted lists
+- Merging by creating a new list
