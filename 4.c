@@ -14,15 +14,15 @@ struct Node *merge(struct Node *p, struct Node *q);
 int main() {
     struct Node *start1 = NULL, *start2 = NULL, *startM;
 
-    printf("Sorted List 1: \n");
+    printf("\nSorted List 1: \n");
     start1 = createSortedList(start1);
     displayList(start1);
     
-    printf("Sorted List 2: \n");
+    printf("\nSorted List 2: \n");
     start2 = createSortedList(start2);
     displayList(start2);
 
-    printf("Merged Sorted List: \n");
+    printf("\nMerged Sorted List: \n");
     startM = merge(start1, start2);
     displayList(startM);
 }
@@ -40,6 +40,8 @@ struct Node *createSortedList(struct Node *start) {
         scanf("%d", &num);
         start = insertInOrder(start, num);
     }
+
+    return start;
 }
 
 struct Node *insertInOrder(struct Node *start, int data) {
