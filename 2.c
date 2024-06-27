@@ -11,12 +11,13 @@ struct Node *insertInBeginning(struct Node *start, int data);
 struct Node *insertAtEnd(struct Node *start, int data);
 void displayList(struct Node *start);
 void sortByExchangingData(struct Node *start);
+struct Node *sortByExchangingLinks(struct Node *start);
 
 int main() {
     struct Node *start = NULL;
     start = createList(start);
     displayList(start);
-    sortByExchangingData(start);
+    start = sortByExchangingLinks(start);
     displayList(start);
 }
 
@@ -111,4 +112,34 @@ void sortByExchangingData(struct Node *start) {
             }
         }
     }
+}
+
+struct Node *sortByExchangingLinks(struct Node *start)
+{
+	struct Node *end,*r,*p,*q,*temp;
+		
+	for(end=NULL; end!=start->next; end=p)
+	{
+  		for(r=p=start; p->next!=end; r=p,p=p->next)
+		{
+			q=p->next;
+			if(p->next > q->next)
+			{
+				p->next=q->next;
+				q->next=p;
+				if(p!=start) {
+                    r->next=q;
+                }
+				else {
+					start=q;
+                }
+
+				temp=p;
+				p=q;
+				q=temp;
+			}
+		}
+		
+	}
+	return start;
 }
