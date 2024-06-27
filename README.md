@@ -1,6 +1,6 @@
-#LINKED LIST
+# LINKED LIST
 
-##1. Single Linked List
+## 1. Single Linked List
 - create a linked list
 - inserting first element to linked list
 - inserting more elements to the end list
