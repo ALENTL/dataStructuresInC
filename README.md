@@ -28,3 +28,14 @@
 
 ### 4. Sorting a List using Merge Sort Algorithm
 - Using recursion to sort a linked list using merge sort algorithm
+
+## STACK
+## QUEUE
+## BINARY TREE
+## BINARY SEARCH TREE
+## HEAP
+## AVL TREE
+## THREADED BINARY TREE
+## EXPRESSION TREE
+## B TREE
+## GRAPH
