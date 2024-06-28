@@ -1,6 +1,6 @@
 # LINKED LIST
 
-## [1] https://github.com/ALENTL/dataStructuresInC/blob/master/1.c "Single Linked List"
+## 1. Single Linked List
 - create a linked list
 - inserting first element to linked list
 - inserting more elements to the end list
