@@ -29,6 +29,12 @@
 ### 4. Sorting a List using Merge Sort Algorithm
 - Using recursion to sort a linked list using merge sort algorithm
 
+### 5. Solving a Cycle List
+- Solving a list having cycle with Floyd's cycle detection algorithm
+  - Inserting a cycle
+  - Find the cycle
+  - Removing the cycle
+
 ## STACK
 ## QUEUE
 ## BINARY TREE
