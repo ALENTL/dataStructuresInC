@@ -123,7 +123,7 @@ struct Node *sortByExchangingLinks(struct Node *start)
   		for(r = p = start; p->next != end; r = p, p = p->next)
 		{
 			q=p->next;
-			if(p->next > q->next)
+			if(p->data > q->data)
 			{
 				p->next=q->next;
 				q->next=p;
@@ -134,9 +134,9 @@ struct Node *sortByExchangingLinks(struct Node *start)
 					start=q;
                 }
 
-				temp=p;
+				// temp=p;
 				p=q;
-				q=temp;
+				// q=temp;
 			}
 		}
 		
