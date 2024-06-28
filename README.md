@@ -1,6 +1,8 @@
-# LINKED LIST
+# INDEX
 
-## 1. Single Linked List
+## LINKED LIST
+
+### 1. Single Linked List
 - create a linked list
 - inserting first element to linked list
 - inserting more elements to the end list
@@ -16,13 +18,13 @@
 - Delete a node at the end
 - Reverse the list
 
-## 2. Sorting of Single Linked List
+### 2. Sorting of Single Linked List
 - Sort by exchanging data
 - Sort by exchanging nodal links
 
-## 3. Merge two sorted lists
+### 3. Merge two sorted lists
 - Merging by creating a new list
 - Merging by rearranging links
 
-## 4. Sorting a List using Merge Sort Algorithm
+### 4. Sorting a List using Merge Sort Algorithm
 - Using recursion to sort a linked list using merge sort algorithm
