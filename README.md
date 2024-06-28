@@ -23,3 +23,6 @@
 ## 3. Merge two sorted lists
 - Merging by creating a new list
 - Merging by rearranging links
+
+## 4. Sorting a List using Merge Sort Algorithm
+- Using recursion to sort a linked list using merge sort algorithm
