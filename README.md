@@ -20,8 +20,6 @@
 - Sort by exchanging data
 - Sort by exchanging nodal links
 
-## 3. Merge two sorted lists (creating new list)
+## 3. Merge two sorted lists
 - Merging by creating a new list
-
-## 4. Merge two sorted lists using links 
-- Merging by rearranging links 
+- Merging by rearranging links
