@@ -9,7 +9,8 @@ struct Node {
 struct Node *createSortedList(struct Node *start);
 struct Node *insertInOrder(struct Node *start, int data);
 void displayList(struct Node *start);
-struct Node *merge(struct Node *p, struct Node *q);
+struct Node *mergeByData(struct Node *p, struct Node *q);
+struct Node *mergeByLinks(struct Node *p, struct Node *q);
 
 int main() {
     struct Node *start1 = NULL, *start2 = NULL, *startM;
@@ -21,8 +22,12 @@ int main() {
     start2 = createSortedList(start2);
     displayList(start2);
 
-    startM = merge(start1, start2);
-    printf("Sorted Merged List: ");
+    startM = mergeByData(start1, start2);
+    printf("Sorted Merged List by data: ");
+    displayList(startM);
+
+    startM = mergeByLinks(start1, start2);
+    printf("Sorted Merged List by links: ");
     displayList(startM);
 }
 
@@ -86,7 +91,7 @@ void displayList(struct Node *start) {
     printf("\n");
 }
 
-struct Node *merge(struct Node *p, struct Node *q) {
+struct Node *mergeByData(struct Node *p, struct Node *q) {
     struct Node *startM, *temp, *pM;
 
     temp = (struct Node *) malloc(sizeof(struct Node));
@@ -138,6 +143,46 @@ struct Node *merge(struct Node *p, struct Node *q) {
         pM->next = temp;
         pM = temp;
         q = q->next;
+    }
+
+    return startM;
+}
+
+struct Node *mergeByLinks(struct Node *p, struct Node *q) {
+    struct Node *startM, *pM;
+
+    if (p->data <= q->data) {
+        startM = p;
+        p = p->next;
+    }
+
+    else {
+        startM = q;
+        q = q->next;
+    }
+
+    pM = startM;
+
+    while (p != NULL && q != NULL) {
+        if (p->data <= q->data) {
+            pM->next = p;
+            pM = pM->next;
+            p = p->next;
+        }
+
+        else {
+            pM->next = q;
+            pM = pM->next;
+            q = q->next;
+        }
+    }
+
+    if (p == NULL) {
+        pM->next = q;
+    }
+
+    else {
+        pM->next = p;
     }
 
     return startM;
