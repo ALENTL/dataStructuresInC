@@ -1,11 +1,11 @@
-# **CURRENT STATUS**
+# ***CURRENT STATUS***
 
-## __DONE__
+## _DONE_
 - Single Linked List [x]
 
-## __IN PROGRESS__
+## _IN PROGRESS_
 - Doubly Linked List
     - Reversing Doubly Linked List [ ]
 
-## __TODO__
+## _TODO_
 - Circular Linked List [ ]
