@@ -10,7 +10,7 @@ struct Node *createList(struct Node *start);
 struct Node *insertInBeginning(struct Node *start, int data);
 void insertAtEnd(struct Node *start, int data);
 void displayList(struct Node *start);
-void insertCycle(struct Node *start, int x);
+void insertCycle(struct Node *start, int data);
 struct Node *findCycle(struct Node *start);
 void removeCycle(struct Node *start, struct Node *pC);
 
@@ -27,18 +27,19 @@ int main() {
     insertCycle(start, num);
 
     ptr = findCycle(start);
+    
+   if (ptr == NULL) {
+    printf("No cycle detected. Terminating\n");
+    return 0;
+   } 
 
-    if (ptr == NULL) {
-      printf("No cycle detected. Terminating\n");
-      return 0;
-    }
-    else {
-      printf("Cycle found in the list\n");
-      removeCycle(start, ptr);
-      printf("Cycle Removed!\n");
-    }
+   else {
+    printf("Cycle found in the list.\n");
+    removeCycle(start, ptr);
+    // printf("Cycle Removed!");
+   }
 
-    displayList(start);
+   displayList(start);
 }
 
 struct Node *createList(struct Node* start) {
@@ -107,13 +108,13 @@ void displayList(struct Node *start) {
   printf("\n");
 }
 
-void insertCycle(struct Node *start, int x) {
+void insertCycle(struct Node *start, int data) {
   struct Node *p, *px = NULL, *prev;
 
   p = prev = start;
 
   while (p != NULL) {
-    if (p->data == x) {
+    if (p->data == data) {
       px = p;
     }
 
@@ -127,58 +128,58 @@ void insertCycle(struct Node *start, int x) {
 }
 
 struct Node *findCycle(struct Node *start) {
-  struct Node *slowP, *fastP;
-
-  if (start->next == NULL) {
+  if (start == NULL || start->next == NULL) {
     return NULL;
   }
 
-  slowP = fastP = NULL;
+  struct Node *slow, *fast;
+  slow = fast = start;
 
-  while (fastP != NULL && fastP->next != NULL) {
-    slowP = slowP->next;
-    fastP = fastP->next->next;
+  while (fast != NULL && fast->next != NULL) {
+    slow = slow->next;
+    fast = fast->next->next;
 
-    if (slowP == fastP) {
-      return slowP;
+    if (slow == fast) {
+      return slow;
     }
   }
+
   return NULL;
 }
 
-void removeCycle(struct Node *start, struct Node *pC) {
+void removeCycle(struct Node *start, struct Node *ptr) {
   struct Node *p, *q;
-  int lenCycle, lenRemList, lenList;
 
-  printf("The node at which the cycle was detected: %d\n", p->data);
+  int lenCycle, lenNonCycle, totalLen;
+  lenCycle = lenNonCycle = totalLen = 0;
 
-  p = q = pC;
-  
-  lenCycle = 0;
+  printf("The node at which the cycle was detected: %d\n", ptr->data);
+
+  p = q = ptr;
 
   do {
     lenCycle++;
     q = q->next;
   } while (p != q);
 
-  printf("The length of the cycle is %d\n", lenCycle);
+  printf("The length of the cycle is: %d\n", lenCycle);
 
-  lenRemList = 0;
-
-  while (p != q) {
-    lenRemList++;
-    p = p->next;
-    q = q->next;
-  }
-
-  printf("The length of the non-cycle is %d\n", lenRemList);
-
-  lenList = lenCycle + lenRemList;
-
-  printf("The total length of the list: %d\n", lenList);
-
-  for (int i=0; i<=lenList; i++) {
+  p = start->next;
+  while (p != ptr) {
+    lenNonCycle++;
     p = p->next;
   }
+
+  printf("The length of the non cycle is: %d\n", lenNonCycle);
+
+  totalLen = lenCycle + lenNonCycle;
+
+  printf("Total length of the list: %d\n", totalLen);
+
+  p = start->next;
+  for (int i=0; i <= totalLen; i++) {
+    p = p->next;
+  }
+
   p->next = NULL;
 }
