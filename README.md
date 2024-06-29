@@ -35,6 +35,21 @@
   - Find the cycle
   - Removing the cycle
 
+### 6. Doubly Linked List
+- Linked list consisting of prev and next pointers and a data for each node
+  - Create a doubly linked list
+  - Insert at empty doubly linked list
+  - Insert in the beginning of the doubly linked list
+  - Insert at the end of the list
+  - Insertion in between nodes
+    - Insert after a node
+    - Insert before a node
+  - Deletion from doubly linked list
+    - Deletion of the first node
+    - Deletion of the only node
+    - Deletion in between nodes
+    - Deletion in last node
+
 ## STACK
 ## QUEUE
 ## BINARY TREE
