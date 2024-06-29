@@ -1,6 +1,11 @@
 # CURRENT STATUS 
 
-## TODO
-### Linked List
+## DONE
+- Single Linked List [x]
+
+## IN PROGRESS
 - Doubly Linked List
-    - [ ] Reversing doubly linked list
+    - Reversing Doubly Linked List [ ]
+
+## TODO
+- Circular Linked List [ ]
