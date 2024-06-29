@@ -1,7 +1,7 @@
 # **CURRENT STATUS**
 
 ## __DONE__
-- [x] Single Linked List
+- [x] **Single Linked List**
     - [x] create a linked list
     - [x] inserting first element to linked list
     - [x] inserting more elements to the end list
@@ -17,24 +17,24 @@
     - [x] Delete a node at the end
     - [x] Reverse the list
 
-- [x] Sorting of Single Linked List
+- [x] **Sorting of Single Linked List**
     - [x] Sort by exchanging data
     - [x] Sort by exchanging nodal links
 
-- [x] Merge two sorted lists
+- [x] **Merge two sorted lists**
     - [x] Sort by exchanging data
     - [x] Sort by exchanging nodal links
 
-- [x] Sorting a list using Merge Sort Algorithm
+- [x] **Sorting a list using Merge Sort Algorithm**
     - [x] Using recursion to sort a linked list using merge sort algorithm
 
-- [x] Floyd's Cycle Detection Algorithm
+- [x] **Floyd's Cycle Detection Algorithm**
     - [x] Solving a list having floyd's cycle using hare and tortoise algorithm
         - [x] Inserting a cycle
         - [x] Finding the cycle
         - [x] Removing the cycle
 
-- [ ] Doubly Linked List
+- [ ] **Doubly Linked List**
     - [x] Linked list consisting of prev and next pointers and a data for each node
     - [x] Create a doubly linked list
     - [x] Insert at empty doubly linked list
@@ -52,8 +52,8 @@
 
 
 ## __IN PROGRESS__
-- [ ] Doubly Linked List
+- [ ] **Doubly Linked List**
     - [ ] Reversing Doubly Linked List
 
 ## __TODO__
-- [ ] Circular Linked List
+- [ ] **Circular Linked List**
