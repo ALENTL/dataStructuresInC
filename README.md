@@ -49,6 +49,7 @@
     - Deletion of the only node
     - Deletion in between nodes
     - Deletion in last node
+  - Reverse the list
 
 ## STACK
 ## QUEUE
