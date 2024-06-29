@@ -18,9 +18,10 @@ void displayList(struct Node *start);
 struct Node *onlyNodeDeletion(struct Node *start);
 struct Node *deleteBetweenNodes(struct Node *start, int data);
 struct Node *deleteLastNode(struct Node *start);
+struct Node *reverse(struct Node *start);
 
 int main() {
-    int num, data; 
+    int num; 
 
     struct Node *start = NULL;
     start = createList(start);
@@ -32,8 +33,8 @@ int main() {
     // scanf("%d", &data);
     // start = insertBeforeNode(start, num, data);
 
-    printf("Deleting the last node of the list!\n");
-    start = deleteLastNode(start); 
+    printf("Reversed List: \n");
+    start = reverse(start); 
     displayList(start);
 }
 
@@ -282,4 +283,27 @@ struct Node *deleteLastNode(struct Node *start) {
     free(temp);
     
     return start;
+}
+
+struct Node *reverse(struct Node *start) {
+  if (start == NULL || start->next == NULL) {
+    return start;  // Handle empty list or single node
+  }
+
+  struct Node *p1, *p2;
+  p1 = start->next;
+  p2 = p1->next;
+
+  while (p2 != NULL) { // Check for end of list
+    // Fix the issue: set next pointer first, then previous
+    p2->next = p1;
+    p2->prev = p2->next;
+    p1 = p2;
+    p2 = p2->next;
+  }
+
+  start->next->prev = NULL;  // Set the last node's prev to null
+  start = p1;
+
+  return start;
 }
