@@ -1,4 +1,4 @@
-# STATUS
+# CURRENT STATUS 
 
 ## TODO
 ### Linked List
