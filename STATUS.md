@@ -1,6 +1,6 @@
 # **CURRENT STATUS**
 
-## __DONE__
+## __COMPLETED__
 - [x] **Single Linked List**
     - [x] create a linked list
     - [x] inserting first element to linked list
