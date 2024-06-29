@@ -1,7 +1,7 @@
 # **CURRENT STATUS**
 
 ## __DONE__
-- Single Linked List [x]
+- Single Linked List [ x ]
 
 ## __IN PROGRESS__
 - Doubly Linked List
