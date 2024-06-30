@@ -18,7 +18,7 @@ void displayList(struct Node *start);
 struct Node *onlyNodeDeletion(struct Node *start);
 struct Node *deleteBetweenNodes(struct Node *start, int data);
 struct Node *deleteLastNode(struct Node *start);
-struct Node *reverse(struct Node *start);
+struct Node *reverseList(struct Node *start);
 
 int main() {
     int num; 
@@ -27,21 +27,21 @@ int main() {
     start = createList(start);
     displayList(start);
 
-    // printf("Enter the element to append before the node: ");
+    // printf("Enter the element to append before the Node: ");
     // scanf("%d", &num);
     // printf("Enter the element before it should be placed: ");
     // scanf("%d", &data);
     // start = insertBeforeNode(start, num, data);
 
     printf("Reversed List: \n");
-    start = reverse(start); 
+    start = reverseList(start); 
     displayList(start);
 }
 
 struct Node *createList(struct Node *start) {
     int n, num;
 
-    printf("Enter the number of nodes: ");
+    printf("Enter the number of Nodes: ");
     scanf("%d", &n);
 
     start = NULL;
@@ -216,7 +216,7 @@ void displayList(struct Node *start) {
 
 struct Node *onlyNodeDeletion(struct Node *start) {
     if (start == NULL || start->next != NULL) {
-        printf("Give a list with only 1 node: \n");
+        printf("Give a list with only 1 Node: \n");
         return start;
     }
 
@@ -265,7 +265,7 @@ struct Node *deleteLastNode(struct Node *start) {
     struct Node *p, *temp;
 
     if (start == NULL) {
-        printf("No nodes to delete!\n");
+        printf("No Nodes to delete!\n");
         return start;
     }
 
@@ -285,25 +285,26 @@ struct Node *deleteLastNode(struct Node *start) {
     return start;
 }
 
-struct Node *reverse(struct Node *start) {
-  if (start == NULL || start->next == NULL) {
-    return start;  // Handle empty list or single node
-  }
+struct Node *reverseList(struct Node *start) {
+    struct Node *p, *q;
 
-  struct Node *p1, *p2;
-  p1 = start->next;
-  p2 = p1->next;
+    if (start == NULL) {
+        return start;
+    }
 
-  while (p2 != NULL) { // Check for end of list
-    // Fix the issue: set next pointer first, then previous
-    p2->next = p1;
-    p2->prev = p2->next;
-    p1 = p2;
-    p2 = p2->next;
-  }
+    p = start;
+    q = p->next;
+    p->next = NULL;
+    p->prev = q;
 
-  start->next->prev = NULL;  // Set the last node's prev to null
-  start = p1;
+    while (q != NULL) {
+       q->prev = q->next; 
+       q->next = p;
+       p = q;
+       q = q->prev;
+    }
 
-  return start;
+    start = p;
+
+    return start;
 }
