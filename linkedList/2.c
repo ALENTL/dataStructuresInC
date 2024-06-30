@@ -134,9 +134,7 @@ struct Node *sortByExchangingLinks(struct Node *start)
 					start=q;
                 }
 
-				// temp=p;
 				p=q;
-				// q=temp;
 			}
 		}
 		
