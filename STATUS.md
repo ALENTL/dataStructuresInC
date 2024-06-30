@@ -34,7 +34,7 @@
         - [x] Finding the cycle
         - [x] Removing the cycle
 
-- [ ] **Doubly Linked List**
+- [x] **Doubly Linked List**
     - [x] Linked list consisting of prev and next pointers and a data for each node
     - [x] Create a doubly linked list
     - [x] Insert at empty doubly linked list
@@ -52,8 +52,9 @@
 
 
 ## __IN PROGRESS__
-- [ ] **Doubly Linked List**
-    - [ ] Reversing Doubly Linked List
+Nothing in particular
 
 ## __TODO__
-- [ ] **Circular Linked List**
+- [ ] **Circular List**
+    - [ ] Insertion 
+    - [ ] Deletion
