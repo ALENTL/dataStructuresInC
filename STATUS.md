@@ -2,22 +2,22 @@
 
 ## **COMPLETED**
 
-- [x] **Single Linked List**
+### - [x] **Single Linked List**
 
-  - [x] create a linked list
-  - [x] inserting first element to linked list
-  - [x] inserting more elements to the end list
-  - [x] display the list
-  - [x] Count the number of nodes in the list
-  - [x] Search for an element in the list and returns its position
-  - [x] Search for a position in the list and returns the value at that position
-  - [x] Insert a node after a given node
-  - [x] Insert a node before a node
-  - [x] Insert a node at given position
-  - [x] Delete a node from the first position
-  - [x] Delete a node in between nodes
-  - [x] Delete a node at the end
-  - [x] Reverse the list
+- [x] create a linked list
+- [x] inserting first element to linked list
+- [x] inserting more elements to the end list
+- [x] display the list
+- [x] Count the number of nodes in the list
+- [x] Search for an element in the list and returns its position
+- [x] Search for a position in the list and returns the value at that position
+- [x] Insert a node after a given node
+- [x] Insert a node before a node
+- [x] Insert a node at given position
+- [x] Delete a node from the first position
+- [x] Delete a node in between nodes
+- [x] Delete a node at the end
+- [x] Reverse the list
 
 - [x] **Sorting of Single Linked List**
 
@@ -40,33 +40,35 @@
     - [x] Finding the cycle
     - [x] Removing the cycle
 
-- [x] **Doubly Linked List**
-  - [x] Linked list consisting of prev and next pointers and a data for each node
-  - [x] Create a doubly linked list
-  - [x] Insert at empty doubly linked list
-  - [x] Insert in the beginning of the doubly linked list
-  - [x] Insert at the end of the list
-  - [x] Insertion in between nodes
-    - [x] Insert after a node
-    - [x] Insert before a node
-  - [x] Deletion from doubly linked list
-    - [x] Deletion of the first node
-    - [x] Deletion of the only node
-    - [x] Deletion in between nodes
-    - [x] Deletion in last node
-  - [x] Reverse the list
+### - [x] **Doubly Linked List**
+
+- [x] Linked list consisting of prev and next pointers and a data for each node
+- [x] Create a doubly linked list
+- [x] Insert at empty doubly linked list
+- [x] Insert in the beginning of the doubly linked list
+- [x] Insert at the end of the list
+- [x] Insertion in between nodes
+  - [x] Insert after a node
+  - [x] Insert before a node
+- [x] Deletion from doubly linked list
+  - [x] Deletion of the first node
+  - [x] Deletion of the only node
+  - [x] Deletion in between nodes
+  - [x] Deletion in last node
+- [x] Reverse the list
 
 ## **IN PROGRESS**
 
-- [ ] **Circular Linked List**
-  - [x] Display the list
-  - [x] Insertion
-    - [x] Insertion in empty list
-    - [x] Insertion in beginning
-    - [x] Insertion at the end
-    - [x] Insertion after a node
-  - [ ] Deletion
-  - [ ] Concatenation
+### - [ ] **Circular Linked List**
+
+- [x] Display the list
+- [x] Insertion
+  - [x] Insertion in empty list
+  - [x] Insertion in beginning
+  - [x] Insertion at the end
+  - [x] Insertion after a node
+- [ ] Deletion
+- [ ] Concatenation
 
 ## **TODO**
 
