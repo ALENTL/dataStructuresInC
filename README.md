@@ -3,6 +3,7 @@
 ## LINKED LIST
 
 ### 1. Single Linked List
+
 - create a linked list
 - inserting first element to linked list
 - inserting more elements to the end list
@@ -19,23 +20,28 @@
 - Reverse the list
 
 ### 2. Sorting of Single Linked List
+
 - Sort by exchanging data
 - Sort by exchanging nodal links
 
 ### 3. Merge two sorted lists
+
 - Merging by creating a new list
 - Merging by rearranging links
 
 ### 4. Sorting a List using Merge Sort Algorithm
+
 - Using recursion to sort a linked list using merge sort algorithm
 
 ### 5. Solving a Cycle List
+
 - Solving a list having cycle with Floyd's cycle detection algorithm
   - Inserting a cycle
   - Find the cycle
   - Removing the cycle
 
 ### 6. Doubly Linked List
+
 - Linked list consisting of prev and next pointers and a data for each node
   - Create a doubly linked list
   - Insert at empty doubly linked list
@@ -51,13 +57,32 @@
     - Deletion in last node
   - Reverse the list
 
+### 7. Circular Linked List
+
+- Display the list
+- Insertion
+  - Insert in empty list
+  - Insert in beginning
+  - Insert at end
+  - Insertion after a node
+- Deletion
+
 ## STACK
+
 ## QUEUE
+
 ## BINARY TREE
+
 ## BINARY SEARCH TREE
+
 ## HEAP
+
 ## AVL TREE
+
 ## THREADED BINARY TREE
+
 ## EXPRESSION TREE
+
 ## B TREE
+
 ## GRAPH
