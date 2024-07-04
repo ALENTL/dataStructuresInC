@@ -70,4 +70,5 @@
 
 ## **TODO**
 
-Nothing in particular
+- [ ] **Stack**
+- [ ] **Queue**
