@@ -66,7 +66,7 @@
   - Insert at end
   - Insertion after a node
 - Deletion
-- Concatenation 
+- Concatenation of the list 
 
 ## STACK
 
