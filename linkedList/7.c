@@ -223,22 +223,25 @@ struct Node *deleteAfterNode(struct Node *last, int data) {
 }
 
 struct Node *concatenate(struct Node *p, struct Node *q) {
-    struct Node *p1, *q1, *final;
+    struct Node *p1, *q1;
     
-    if (p == NULL) {
-        final = q;
+    if (p == NULL && q != NULL) {
+        return q;
     }
 
-    else if (q == NULL) {
-        final = p;
+    else if (q == NULL && p != NULL) {
+        return p;
     }
 
     else if (p == NULL && q == NULL) {
-        final == NULL;
+        printf("Empty elements in both the list!\n");
+        return NULL;
     }
 
     p1 = p->next, q1 = q->next;
 
     p->next = q1;
     q->next = p1;
+
+    return q;
 }
