@@ -65,8 +65,12 @@
     - [x] Insertion in beginning
     - [x] Insertion at the end
     - [x] Insertion after a node
-  - [ ] Deletion
-  - [ ] Concatenation
+  - [x] Deletion
+    - [x] Delete first node
+    - [x] Delete after a node
+    - [x] Delete last node
+    - [x] Delete if only one node exists
+  - [x] Concatenation
 
 ## **TODO**
 
