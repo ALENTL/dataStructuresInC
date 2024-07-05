@@ -66,7 +66,17 @@
   - Insert at end
   - Insertion after a node
 - Deletion
-- Concatenation of the list 
+- Concatenation of the list
+
+### 8. Linked List with Header Node
+
+- Create List
+- Insertion
+  - Before
+  - After
+  - At position
+- Delete Node
+- Reverse
 
 ## STACK
 

@@ -41,6 +41,7 @@
     - [x] Removing the cycle
 
 - [x] **Doubly Linked List**
+
   - [x] Linked list consisting of prev and next pointers and a data for each node
   - [x] Create a doubly linked list
   - [x] Insert at empty doubly linked list
@@ -56,9 +57,18 @@
     - [x] Deletion in last node
   - [x] Reverse the list
 
+- [x] **Linked List with Header Node**
+- [x] Create List
+- [x] Insertion
+  - [x] Before
+  - [x] After
+  - [x] At position
+- [x] Delete Node
+- [x] Reverse
+
 ## **IN PROGRESS**
 
-- [ ] **Circular Linked List**
+- [x] **Circular Linked List**
   - [x] Display the list
   - [x] Insertion
     - [x] Insertion in empty list
