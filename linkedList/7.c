@@ -16,17 +16,19 @@ struct Node *deleteFirstNode(struct Node *last);
 struct Node *onlyNodeDeletion(struct Node *last);
 struct Node *deleteLastNode(struct Node *last);
 struct Node *deleteAfterNode(struct Node *last, int data);
+struct Node *concatenate(struct Node *p, struct Node *q);
 
 int main() {
     int num, data;
 
-    struct Node *last = NULL;
-    last = createList(last);
-    displayList(last);
+    struct Node *last1 = NULL, *last2 = NULL;
+    last1 = createList(last1);
+    displayList(last1);
 
-    printf("Enter the data of the prev node: ");
-    scanf("%d", &num);
-    last = deleteAfterNode(last, num);
+    last2 = createList(last2);
+    displayList(last2);
+
+    struct Node *last = concatenate(last1, last2); 
     displayList(last);
 }
 
@@ -218,4 +220,25 @@ struct Node *deleteAfterNode(struct Node *last, int data) {
     }
 
     return last;
+}
+
+struct Node *concatenate(struct Node *p, struct Node *q) {
+    struct Node *p1, *q1, *final;
+    
+    if (p == NULL) {
+        final = q;
+    }
+
+    else if (q == NULL) {
+        final = p;
+    }
+
+    else if (p == NULL && q == NULL) {
+        final == NULL;
+    }
+
+    p1 = p->next, q1 = q->next;
+
+    p->next = q1;
+    q->next = p1;
 }
