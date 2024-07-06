@@ -96,6 +96,15 @@
 - Find the top element of the stack
 - Display the stack
 
+### [2. Stack Using Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/2.c)
+
+- Initialize empty stack
+- Push an element to the stack
+- Pop the last element
+- Find the size of the stack
+- Find the top element of the stack
+- Display the stack
+
 <br/>
 
 ## QUEUE
