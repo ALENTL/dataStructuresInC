@@ -83,6 +83,8 @@
 - Insert as sorted
 - Search for the element
 
+<br/>
+
 ## STACK
 
 ## QUEUE
