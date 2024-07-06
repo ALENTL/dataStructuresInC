@@ -89,6 +89,8 @@
 
 ### [1. Stack Using Arrays](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/1.c)
 
+<br/>
+
 ## QUEUE
 
 ## BINARY TREE
