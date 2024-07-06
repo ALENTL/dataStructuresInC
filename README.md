@@ -89,6 +89,13 @@
 
 ### [1. Stack Using Arrays](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/1.c)
 
+- Initialize empty stack
+- Push an element to the stack
+- Pop the last element from the stack
+- Find the size of the stack
+- Find the top element of the stack
+- Display the stack
+
 <br/>
 
 ## QUEUE
