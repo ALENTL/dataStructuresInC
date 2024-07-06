@@ -19,19 +19,27 @@
 - Delete a node at the end
 - Reverse the list
 
+<br/>
+
 ### 2. Sorting of Single Linked List
 
 - Sort by exchanging data
 - Sort by exchanging nodal links
+
+<br/>
 
 ### 3. Merge two sorted lists
 
 - Merging by creating a new list
 - Merging by rearranging links
 
+<br/>
+
 ### 4. Sorting a List using Merge Sort Algorithm
 
 - Using recursion to sort a linked list using merge sort algorithm
+
+<br/>
 
 ### 5. Solving a Cycle List
 
@@ -39,6 +47,8 @@
   - Inserting a cycle
   - Find the cycle
   - Removing the cycle
+
+<br/>
 
 ### 6. Doubly Linked List
 
@@ -57,6 +67,8 @@
     - Deletion in last node
   - Reverse the list
 
+<br/>
+
 ### 7. Circular Linked List
 
 - Display the list
@@ -68,6 +80,8 @@
 - Deletion
 - Concatenation of the list
 
+<br/>
+
 ### 8. Linked List with Header Node
 
 - Create List
@@ -78,10 +92,14 @@
 - Delete Node
 - Reverse
 
+<br/>
+
 ### 9. Sorted Linked List
 
 - Insert as sorted
 - Search for the element
+
+<br/>
 
 ## STACK
 
