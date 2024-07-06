@@ -19,19 +19,27 @@
   - [x] Delete a node at the end
   - [x] Reverse the list
 
+  <br/>
+
 - [x] **Sorting of Single Linked List**
 
   - [x] Sort by exchanging data
   - [x] Sort by exchanging nodal links
+
+  <br/>
 
 - [x] **Merge two sorted lists**
 
   - [x] Sort by exchanging data
   - [x] Sort by exchanging nodal links
 
+  <br/>
+
 - [x] **Sorting a list using Merge Sort Algorithm**
 
   - [x] Using recursion to sort a linked list using merge sort algorithm
+
+  <br/>
 
 - [x] **Floyd's Cycle Detection Algorithm**
 
@@ -39,6 +47,8 @@
     - [x] Inserting a cycle
     - [x] Finding the cycle
     - [x] Removing the cycle
+
+  <br/>
 
 - [x] **Doubly Linked List**
 
@@ -57,6 +67,8 @@
     - [x] Deletion in last node
   - [x] Reverse the list
 
+  <br/>
+
 - [x] **Circular Linked List**
 
   - [x] Display the list
@@ -72,6 +84,8 @@
     - [x] Delete if only one node exists
   - [x] Concatenation
 
+  <br/>
+
 - [x] **Linked List with Header Node**
 
   - [x] Create List
@@ -82,9 +96,14 @@
   - [x] Delete Node
   - [x] Reverse
 
+  <br/>
+
 - [x] **Sorted Linked List**
+
   - [x] Insert In Order
   - [x] Search for an element
+
+  <br/>
 
 ## **IN PROGRESS**
 
