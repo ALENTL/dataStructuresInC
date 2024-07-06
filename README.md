@@ -2,7 +2,7 @@
 
 ## LINKED LIST
 
-### 1. Single Linked List
+### [1. Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c)
 
 - create a linked list
 - inserting first element to linked list
@@ -19,28 +19,28 @@
 - Delete a node at the end
 - Reverse the list
 
-### 2. Sorting of Single Linked List
+### [2. Sorting of Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c)
 
 - Sort by exchanging data
 - Sort by exchanging nodal links
 
-### 3. Merge two sorted lists
+### [3. Merge two sorted lists](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/3.c)
 
 - Merging by creating a new list
 - Merging by rearranging links
 
-### 4. Sorting a List using Merge Sort Algorithm
+### [4. Sorting a List using Merge Sort Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c)
 
 - Using recursion to sort a linked list using merge sort algorithm
 
-### 5. Solving a Cycle List
+### [5. Solving a Cycle List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/5.c)
 
 - Solving a list having cycle with Floyd's cycle detection algorithm
   - Inserting a cycle
   - Find the cycle
   - Removing the cycle
 
-### 6. Doubly Linked List
+### [6. Doubly Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/6.c)
 
 - Linked list consisting of prev and next pointers and a data for each node
   - Create a doubly linked list
@@ -57,7 +57,7 @@
     - Deletion in last node
   - Reverse the list
 
-### 7. Circular Linked List
+### [7. Circular Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/7.c)
 
 - Display the list
 - Insertion
@@ -68,7 +68,7 @@
 - Deletion
 - Concatenation of the list
 
-### 8. Linked List with Header Node
+### [8. Linked List with Header Node](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/8.c)
 
 - Create List
 - Insertion
@@ -78,7 +78,7 @@
 - Delete Node
 - Reverse
 
-### 9. Sorted Linked List
+### [9. Sorted Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/9.c)
 
 - Insert as sorted
 - Search for the element
