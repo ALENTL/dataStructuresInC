@@ -110,6 +110,7 @@
 - [ ] **Stack**
 
   - [x] Stack using arrays
+  - [x] Stack using linked list
 
 ## **TODO**
 
