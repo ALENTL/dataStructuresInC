@@ -78,6 +78,11 @@
 - Delete Node
 - Reverse
 
+### 9. Sorted Linked List
+
+- Insert as sorted
+- Search for the element
+
 ## STACK
 
 ## QUEUE

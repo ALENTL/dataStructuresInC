@@ -57,18 +57,8 @@
     - [x] Deletion in last node
   - [x] Reverse the list
 
-- [x] **Linked List with Header Node**
-- [x] Create List
-- [x] Insertion
-  - [x] Before
-  - [x] After
-  - [x] At position
-- [x] Delete Node
-- [x] Reverse
-
-## **IN PROGRESS**
-
 - [x] **Circular Linked List**
+
   - [x] Display the list
   - [x] Insertion
     - [x] Insertion in empty list
@@ -82,7 +72,24 @@
     - [x] Delete if only one node exists
   - [x] Concatenation
 
-## **TODO**
+- [x] **Linked List with Header Node**
+
+  - [x] Create List
+  - [x] Insertion
+    - [x] Before
+    - [x] After
+    - [x] At position
+  - [x] Delete Node
+  - [x] Reverse
+
+- [x] **Sorted Linked List**
+  - [x] Insert In Order
+  - [x] Search for an element
+
+## **IN PROGRESS**
 
 - [ ] **Stack**
+
+## **TODO**
+
 - [ ] **Queue**
