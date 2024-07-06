@@ -109,6 +109,8 @@
 
 - [ ] **Stack**
 
+  - [x] Stack using arrays
+
 ## **TODO**
 
 - [ ] **Queue**
