@@ -117,7 +117,8 @@
 - [ ] **Queue**
 
   - [x] Queue using arrays
-  - [x] Queue using linked list
+  - [x] Queue using singly linked list
+  - [x] Queue using circular linked list
 
 ## **TODO**
 
