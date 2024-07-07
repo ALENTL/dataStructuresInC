@@ -122,3 +122,10 @@
 ## **TODO**
 
 - [ ] **Recursion**
+- [ ] **Binary Tree**
+- [ ] **Binary Search Tree**
+- [ ] **AVL Tree**
+- [ ] **Threaded Binary Tree**
+- [ ] **Expression Tree**
+- [ ] **B Tree**
+- [ ] **Graph**
