@@ -112,10 +112,12 @@
   - [x] Stack using arrays
   - [x] Stack using linked list
 
+  <br/>
+
 - [ ] **Queue**
 
   - [x] Queue using arrays
-  - [ ] Queue using linked list
+  - [x] Queue using linked list
 
 ## **TODO**
 
