@@ -112,6 +112,11 @@
   - [x] Stack using arrays
   - [x] Stack using linked list
 
+- [ ] **Queue**
+
+  - [x] Queue using arrays
+  - [ ] Queue using linked list
+
 ## **TODO**
 
-- [ ] **Queue**
+- [ ] **Recursion**

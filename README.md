@@ -109,6 +109,8 @@
 
 ## QUEUE
 
+### [2. Queue Using Arrays](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/1.c)
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
