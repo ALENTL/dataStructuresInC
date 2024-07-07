@@ -4,10 +4,10 @@
 
 ### [1. Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c)
 
-- create a linked list
-- inserting first element to linked list
-- inserting more elements to the end list
-- display the list
+- Create a linked list
+- Inserting first element to linked list
+- Inserting more elements to the end list
+- Display the list
 - Count the number of nodes in the list
 - Search for an element in the list and returns its position
 - Search for a position in the list and returns the value at that position
