@@ -129,6 +129,17 @@
 
 <br>
 
+### [3. Queue Using Circular Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/3.c)
+
+- Initialize empty queue
+- Insert an element to the queue
+- Delete an element from queue (as per FIFO)
+- Find the size of the queue
+- Find the peek element of the queue
+- Display the queue
+
+<br>
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
