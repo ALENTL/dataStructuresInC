@@ -147,6 +147,10 @@
 - Find the peek element of the queue
 - Display the queue
 
+### [5. Deque](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/5.c)
+
+### [6. Priority Queue](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/6.c)
+
 <br>
 
 ## BINARY TREE
