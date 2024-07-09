@@ -127,13 +127,22 @@
 - Find the peek element of the queue
 - Display the queue
 
-<br>
-
 ### [3. Queue Using Circular Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/3.c)
 
 - Initialize empty queue
 - Insert an element to the queue
 - Delete an element from queue (as per FIFO)
+- Find the size of the queue
+- Find the peek element of the queue
+- Display the queue
+
+### [4. Circular Queue](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/4.c)
+
+- Initialize empty queue
+- Checking if the queue is full
+- Checking if the queue is empty
+- Inserting an element in the queue
+- Deleting an element from the queue (as per FIFO)
 - Find the size of the queue
 - Find the peek element of the queue
 - Display the queue
