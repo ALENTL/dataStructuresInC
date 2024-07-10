@@ -121,7 +121,7 @@
   - [x] Queue using circular linked list
   - [x] Circular queue
   - [x] Deque
-  - [ ] Priority Queue
+  - [x] Priority Queue
 
 ## **TODO**
 
