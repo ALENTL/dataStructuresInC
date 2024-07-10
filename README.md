@@ -160,6 +160,12 @@
 
 ### [6. Priority Queue](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/6.c)
 
+- Initialize empty queue
+- Check if queue is empty
+- Insert an element with it's priority
+- Delete an element (follows FIFO)
+- Display the queue
+
 <br>
 
 ## BINARY TREE
