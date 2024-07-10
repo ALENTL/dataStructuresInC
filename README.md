@@ -105,6 +105,15 @@
 - Find the top element of the stack
 - Display the stack
 
+### [3. Balanced Parantheses using Stack](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/3.c)
+
+- Initialize empty stack
+- Push an element to the stack
+- Pop an element from the stack
+- Check if the stack is empty
+- Check if the given parantheses are matching
+- Check if the given expression has balanced parantheses
+
 <br>
 
 ## QUEUE
