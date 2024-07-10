@@ -149,6 +149,15 @@
 
 ### [5. Deque](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/5.c)
 
+- Initialize empty deque
+- Checking if deque is full
+- Checking if deque is empty
+- Inserting an element at the front of the deque
+- Inserting an element at the end of the deque
+- Deleting an element from the front of the deque
+- Deleting an element from the rear of the deque
+- Display the queue
+
 ### [6. Priority Queue](https://github.com/ALENTL/dataStructuresInC/blob/master/queue/6.c)
 
 <br>
