@@ -111,6 +111,7 @@
 
   - [x] Stack using arrays
   - [x] Stack using linked list
+  - [x] Balanced Parantheses using stack
 
   <br/>
 
