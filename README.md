@@ -114,6 +114,15 @@
 - Check if the given parantheses are matching
 - Check if the given expression has balanced parantheses
 
+### [4. Infix to Postfix using stack](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/4.c)
+
+- Convert infix to postfix
+- Push element to the stack
+- Pop an element from the stack
+- Check if the stack is empty
+- Check the precendence of the operators
+- Evaluate the postfix
+
 <br>
 
 ## QUEUE
