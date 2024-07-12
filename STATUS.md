@@ -107,15 +107,16 @@
 
 ## **IN PROGRESS**
 
-- [ ] **Stack**
+- [x] **Stack**
 
   - [x] Stack using arrays
   - [x] Stack using linked list
   - [x] Balanced Parantheses using stack
+  - [x] Infix to Postfix using stack
 
   <br/>
 
-- [ ] **Queue**
+- [x] **Queue**
 
   - [x] Queue using arrays
   - [x] Queue using singly linked list
