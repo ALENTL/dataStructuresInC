@@ -192,6 +192,14 @@
 
 - Using recursion to find the factorial of a number and returning it
 
+### [2. Finding numbers n to 1](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/2.c)
+
+- Using recursion to find the numbers from n to 1, using recursion
+
+### [3. Finding numbers 1 to n](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/3.c)
+
+- Using recursion to find the numbers from 1 to n, using recursion
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
