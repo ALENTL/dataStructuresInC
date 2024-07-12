@@ -194,11 +194,15 @@
 
 ### [2. Finding numbers n to 1](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/2.c)
 
-- Using recursion to find the numbers from n to 1, using recursion
+- Using recursion to find the numbers from n to 1
 
 ### [3. Finding numbers 1 to n](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/3.c)
 
-- Using recursion to find the numbers from 1 to n, using recursion
+- Using recursion to find the numbers from 1 to n
+
+### [4. Finding sum of the digits of a number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/4.c)
+
+- Using recursion to find the sum of digits of a number
 
 ## BINARY TREE
 
