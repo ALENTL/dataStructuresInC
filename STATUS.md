@@ -19,27 +19,27 @@
   - [x] Delete a node at the end
   - [x] Reverse the list
 
-  <br/>
+  <br>
 
 - [x] **Sorting of Single Linked List**
 
   - [x] Sort by exchanging data
   - [x] Sort by exchanging nodal links
 
-  <br/>
+  <br>
 
 - [x] **Merge two sorted lists**
 
   - [x] Sort by exchanging data
   - [x] Sort by exchanging nodal links
 
-  <br/>
+  <br>
 
 - [x] **Sorting a list using Merge Sort Algorithm**
 
   - [x] Using recursion to sort a linked list using merge sort algorithm
 
-  <br/>
+  <br>
 
 - [x] **Floyd's Cycle Detection Algorithm**
 
@@ -48,7 +48,7 @@
     - [x] Finding the cycle
     - [x] Removing the cycle
 
-  <br/>
+  <br>
 
 - [x] **Doubly Linked List**
 
@@ -67,7 +67,7 @@
     - [x] Deletion in last node
   - [x] Reverse the list
 
-  <br/>
+  <br>
 
 - [x] **Circular Linked List**
 
@@ -84,7 +84,7 @@
     - [x] Delete if only one node exists
   - [x] Concatenation
 
-  <br/>
+  <br>
 
 - [x] **Linked List with Header Node**
 
@@ -96,16 +96,14 @@
   - [x] Delete Node
   - [x] Reverse
 
-  <br/>
+  <br>
 
 - [x] **Sorted Linked List**
 
   - [x] Insert In Order
   - [x] Search for an element
 
-  <br/>
-
-## **IN PROGRESS**
+  <br>
 
 - [x] **Stack**
 
@@ -114,7 +112,7 @@
   - [x] Balanced Parantheses using stack
   - [x] Infix to Postfix using stack
 
-  <br/>
+  <br>
 
 - [x] **Queue**
 
@@ -125,9 +123,15 @@
   - [x] Deque
   - [x] Priority Queue
 
-## **TODO**
+  <br>
+
+## **IN PROGRESS**
 
 - [ ] **Recursion**
+  - [x] Factorial
+
+## **TODO**
+
 - [ ] **Binary Tree**
 - [ ] **Binary Search Tree**
 - [ ] **AVL Tree**

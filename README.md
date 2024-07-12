@@ -186,6 +186,12 @@
 
 <br>
 
+## RECURSION
+
+### [1. Factorial using recursion](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/1.c)
+
+- Using recursion to find the factorial of a number and returning it
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
