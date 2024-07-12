@@ -131,6 +131,7 @@
   - [x] Factorial
   - [x] Printing numbers from n to 1
   - [x] Printing numbers from 1 to n
+  - [x] Finding sum of the digits of a number
 
 ## **TODO**
 
