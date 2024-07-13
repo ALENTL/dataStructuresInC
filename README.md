@@ -204,6 +204,10 @@
 
 - Using recursion to find the sum of digits of a number
 
+### [5. Converting decimal to binary](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/5.c)
+
+### [6. Converting decimal to octal](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/6.c)
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
