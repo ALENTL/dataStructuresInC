@@ -220,6 +220,14 @@
 
 - Using recursion to find the gcd of a number
 
+### [9. Finding fibonacci number of nth number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/9.c)
+
+- Finding fibonacci number
+
+```python
+fib(n) = fib(n-1) + fib(n-2)
+```
+
 <br>
 
 ## BINARY TREE

@@ -136,6 +136,7 @@
   - [x] Decimal to octal
   - [x] Finding nth power
   - [x] Euclid's GCD theorem
+  - [x] Fibonnaci Series
 
 ## **TODO**
 
