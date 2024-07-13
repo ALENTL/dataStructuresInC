@@ -206,9 +206,15 @@
 
 ### [5. Converting decimal to binary](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/5.c)
 
+- Using recursion to convert decimal to binary
+
 ### [6. Converting decimal to octal](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/6.c)
 
+- Using recursion to convert decimal to octal
+
 ### [7. Finding nth power of a number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/7.c)
+
+- Using recursion to find the nth power and returning it
 
 ## BINARY TREE
 
