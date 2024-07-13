@@ -135,6 +135,7 @@
   - [x] Decimal to binary
   - [x] Decimal to octal
   - [x] Finding nth power
+  - [x] Euclid's GCD theorem
 
 ## **TODO**
 

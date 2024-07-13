@@ -216,6 +216,10 @@
 
 - Using recursion to find the nth power and returning it
 
+### [8. Finding Greatest Common Divisor using Euclid's Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/8.c)
+
+- Using recursion to find the gcd of a number
+
 <br>
 
 ## BINARY TREE
