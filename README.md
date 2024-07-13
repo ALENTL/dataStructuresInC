@@ -192,6 +192,10 @@
 
 - Using recursion to find the factorial of a number and returning it
 
+```c
+int factorial = n * factorial(n-1);
+```
+
 ### [2. Finding numbers n to 1](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/2.c)
 
 - Using recursion to find the numbers from n to 1
@@ -203,6 +207,16 @@
 ### [4. Finding sum of the digits of a number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/4.c)
 
 - Using recursion to find the sum of digits of a number
+
+```c
+int sum(int n) {
+  if (n/10 == 0) {
+    return n;
+  }
+
+  return sum(n/10) + n%10;
+}
+```
 
 ### [5. Converting decimal to binary](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/5.c)
 
@@ -216,15 +230,35 @@
 
 - Using recursion to find the nth power and returning it
 
+```c
+int power(int num, pow) {
+  if (pow == 0) {
+    return 1;
+  }
+
+  return power(num, pow-1) * num;
+}
+```
+
 ### [8. Finding Greatest Common Divisor using Euclid's Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/8.c)
 
 - Using recursion to find the gcd of a number
+
+```c
+int gcd(a, b) {
+  if (b == 0) {
+    return a;
+  }
+
+  return gcd(b, a%b);
+}
+```
 
 ### [9. Finding fibonacci number of nth number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/9.c)
 
 - Finding fibonacci number
 
-```python
+```c
 fib(n) = fib(n-1) + fib(n-2)
 ```
 
