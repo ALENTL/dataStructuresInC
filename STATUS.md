@@ -134,6 +134,7 @@
   - [x] Finding sum of the digits of a number
   - [x] Decimal to binary
   - [x] Decimal to octal
+  - [x] Finding nth power
 
 ## **TODO**
 

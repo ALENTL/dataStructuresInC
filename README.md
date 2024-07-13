@@ -208,6 +208,8 @@
 
 ### [6. Converting decimal to octal](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/6.c)
 
+### [7. Finding nth power of a number](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/7.c)
+
 ## BINARY TREE
 
 ## BINARY SEARCH TREE
