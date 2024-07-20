@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void hanoi(int n, char source, char temp, char dest);
 
