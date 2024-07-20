@@ -262,6 +262,14 @@ int gcd(a, b) {
 fib(n) = fib(n-1) + fib(n-2)
 ```
 
+### [10. Tower of hanoi](https://github.com/ALENTL/dataStructuresInC/blob/master/recursion/10.c)
+
+- Moving disks (tower of hanoi) from source to destination with temp source
+
+```c
+hanoi(n, 'source', 'destination', 'tempSource')
+```
+
 <br>
 
 ## BINARY TREE

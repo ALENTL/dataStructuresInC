@@ -125,9 +125,8 @@
 
   <br>
 
-## **IN PROGRESS**
+- [x] **Recursion**
 
-- [ ] **Recursion**
   - [x] Factorial
   - [x] Printing numbers from n to 1
   - [x] Printing numbers from 1 to n
@@ -137,10 +136,16 @@
   - [x] Finding nth power
   - [x] Euclid's GCD theorem
   - [x] Fibonnaci Series
+  - [x] Tower of Hanoi
+
+  <br>
+
+## **IN PROGRESS**
+
+- [ ] **Binary Tree**
 
 ## **TODO**
 
-- [ ] **Binary Tree**
 - [ ] **Binary Search Tree**
 - [ ] **AVL Tree**
 - [ ] **Threaded Binary Tree**
