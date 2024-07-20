@@ -267,7 +267,7 @@ fib(n) = fib(n-1) + fib(n-2)
 - Moving disks (tower of hanoi) from source to destination with temp source
 
 ```c
-hanoi(n, 'source', 'destination', 'tempSource')
+hanoi(n, source, destination, tempSource)
 ```
 
 <br>
