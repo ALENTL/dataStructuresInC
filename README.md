@@ -29,7 +29,7 @@
 - Merging by creating a new list
 - Merging by rearranging links
 
-### [4. Sorting a List using Merge Sort Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c)
+### [4. Sorting a List using Merge Sort Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/4.c)
 
 - Using recursion to sort a linked list using merge sort algorithm
 
