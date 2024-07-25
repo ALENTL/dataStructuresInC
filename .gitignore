@@ -3,3 +3,4 @@ test.c
 *.exe
 */*.exe
 test/
+.clang-format
