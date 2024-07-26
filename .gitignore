@@ -1,6 +1,8 @@
 .vscode/
 test.c
 *.exe
+*.out 
 */*.exe
+*/*.out
 test/
 .clang-format
