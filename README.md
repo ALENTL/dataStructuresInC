@@ -123,6 +123,12 @@
 - Check the precendence of the operators
 - Evaluate the postfix
 
+### [5. Infix to Prefix using Stack](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/5.c)
+
+- Convert infix to prefix
+- Push element to the stack
+- Pop an element from the stack
+
 <br>
 
 ## QUEUE
