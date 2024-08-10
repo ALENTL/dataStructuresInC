@@ -1,82 +1,87 @@
-#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #define MAX 100
 
-int stack[MAX], top;
+/*
+ * NOTE: We take the input from the user and store as infix
+ * NOTE: We reverse the infix
+ * NOTE: In reversing, if infix[i] == '(', then infix[i] = ')'
+ * NOTE: else if infix[i] == ')', then infix[i] = '('
+ * NOTE: Push the reversed infix expression to the stack
+ * NOTE: Reverse content of the stack and display it as prefix
+ */
 
-void initializeStack();
-void infixToPrefix(char infix[], char prefix[]);
+typedef struct {
+    int top;
+    char stack[MAX];
+} Stack;
+
+// NOTE: Function to initialize empty stack
+void initializeStack(Stack *stk);
+
+// NOTE: Function to reverse the infix
 char *strrev(char *str);
-void push(char x);
-char pop();
-int precedence(char c);
+
+// NOTE: Function to convert the infix expression to postfix
+void infixToPostfix(char infix[], char postfix[], Stack *stk);
+
+// NOTE: Function to check whether stack is Full
+int isFull(Stack *stk);
+
+// NOTE: Function to check whether stack is Empty
+int isEmpty(Stack *stk);
+
+// NOTE: Function to push element to the stack
+void push(char symbol, Stack *stk);
+
+// NOTE: Function to pop element from the stack
+char pop(Stack *stk);
+
+// NOTE: Function to return precedence of operators
+int precedence(char symbol);
 
 int main() {
-    char infix[MAX], prefix[MAX];
+    Stack *stk = (Stack *)malloc(sizeof(Stack));
+    initializeStack(stk);
 
-    printf("Enter the infix expression: ");
+    char infix[MAX], prefix[MAX], postfix[MAX];
+
+    printf("Enter the infix expression with parantheses: ");
     fgets(infix, sizeof(infix), stdin);
 
-    infix[strcspn(infix, "\n")] = '\0';
+    printf("The infix expression is:  %s", infix);
 
-    printf("The infix expression is %s\n", infix);
+    strrev(infix);
 
-    infixToPrefix(infix, prefix);
-    printf("The prefix expression is %s\n", prefix);
+    for (int i = 0; i < sizeof(infix); i++) {
+        if (infix[i] == '(') {
+            infix[i] = ')';
+        }
+
+        else if (infix[i] == ')') {
+            infix[i] = '(';
+        }
+    }
+
+    memmove(infix, infix + 1, strlen(infix));
+
+    printf("The reversed infix expression: %s\n", infix);
+
+    infixToPostfix(infix, postfix, stk);
+    printf("The postfix expression is: %s\n", postfix);
+
+    strcpy(prefix, postfix);
+    strrev(prefix);
+
+    printf("The prefix expression is: %s\n", prefix);
 
     return 0;
 }
 
-void initializeStack() {
-    top = -1;
-}
-
-void infixToPrefix(char infix[], char prefix[]) {
-    char temp, x;
-    int i = 0, j = 0;
-
-    strrev(infix);
-
-    while (infix[i] != '\0') {
-        temp = infix[i];
-
-        if (isalnum(temp)) {
-            prefix[j++] = temp;
-        }
-
-        else if (temp == ' ') {
-            continue;
-        }
-
-        else if (temp == ')') {
-            push(temp);
-        }
-
-        else if (temp == '(') {
-            while ((x = pop()) != ')') {
-                prefix[j++] = x;
-            }
-        }
-
-        else {
-            while (precedence(stack[top]) >= precedence(temp)) {
-                prefix[j++] = pop();
-            }
-            push(temp);
-        }
-
-        i++;
-    }
-
-    while (top != -1) {
-        prefix[j++] = pop();
-    }
-
-    prefix[j] = '\0';
-    strrev(prefix);
+void initializeStack(Stack *stk) {
+    stk->top = -1;
 }
 
 char *strrev(char *str) {
@@ -92,29 +97,100 @@ char *strrev(char *str) {
     return str;
 }
 
-void push(char x) {
-    stack[++top] = x;
+void infixToPostfix(char infix[], char postfix[], Stack *stk) {
+    char symbol, next;
+    int p = 0;
+
+    for (int i = 0; infix[i] != '\0'; i++) {
+        symbol = infix[i];
+
+        if (symbol == ' ' || symbol == '\t') {
+            continue;
+        }
+
+        switch (symbol) {
+        case '(':
+            push(symbol, stk);
+            break;
+
+        case ')':
+            while ((next = pop(stk)) != '(') {
+                postfix[p++] = next;
+            }
+            break;
+
+        case '+':
+        case '-':
+        case '*':
+        case '/':
+        case '%':
+        case '^':
+            while (!isEmpty(stk) &&
+                   precedence(stk->stack[stk->top]) >= precedence(symbol)) {
+                postfix[p++] = pop(stk);
+            }
+            push(symbol, stk);
+            break;
+
+        default:
+            postfix[p++] = symbol;
+        }
+    }
+
+    while (!isEmpty(stk)) {
+        postfix[p++] = pop(stk);
+    }
+    postfix[p] = '\0';
 }
 
-char pop() {
-    if (top == -1) {
-        printf("Stack Underflow\n");
+void push(char symbol, Stack *stk) {
+    if (isFull(stk)) {
+        printf("Stack Overflow!\n");
         exit(1);
     }
-
-    return stack[top--];
+    stk->stack[++stk->top] = symbol;
 }
 
-int precedence(char c) {
-    if (c == '(' || c == ')') {
-        return 0;
-    }
-
-    else if (c == '+' || c == '-') {
+int isFull(Stack *stk) {
+    if (stk->top >= MAX - 1) {
         return 1;
     }
+    return 0;
+}
 
-    else if (c == '*' || c == '/' || c == '%') {
+int isEmpty(Stack *stk) {
+    if (stk->top == -1) {
+        return 1;
+    }
+    return 0;
+}
+
+char pop(Stack *stk) {
+    if (isEmpty(stk)) {
+        printf("Stack Underflow!\n");
+        exit(1);
+    }
+    return (stk->stack[stk->top--]);
+}
+
+int precedence(char symbol) {
+    switch (symbol) {
+    case '(':
+        return 0;
+
+    case '+':
+    case '-':
+        return 1;
+
+    case '*':
+    case '/':
+    case '%':
         return 2;
+
+    case '^':
+        return 3;
+
+    default:
+        return -1; // NOTE: Return a negative value for all non-operators
     }
 }
