@@ -125,9 +125,11 @@
 
 ### [5. Infix to Prefix using Stack](https://github.com/ALENTL/dataStructuresInC/blob/master/stack/5.c)
 
-- Convert infix to prefix
-- Push element to the stack
-- Pop an element from the stack
+- Get infix expression from the user and store as infix
+- Reverse the infix expression, also the brackets
+- Convert the reversed infix expression to postfix
+- Reverse the postfix expression to obtain prefix
+- Display the prefix expression
 
 <br>
 
