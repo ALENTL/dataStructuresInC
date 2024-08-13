@@ -1,0 +1,11 @@
+Each empty subtree in a binary tree is replaced by a special node then the resulting tree is extended binary tree.
+
+Path length of a node:
+    Number of edges traversed from that node to the root node.
+    It is the level number of that node.
+
+Internal path length of a binary tree:
+    Sum of path lengths of all internal nodes
+
+External path length of a binary tree:
+    Sum of path lengths of all external nodes
