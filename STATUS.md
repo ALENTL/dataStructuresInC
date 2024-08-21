@@ -112,6 +112,8 @@
   - [x] Balanced Parantheses using stack
   - [x] Infix to Postfix using stack
   - [x] Infix to Prefix using stack
+  - [x] Postfix to Infix using stack
+  - [x] Prefix to Infix using stack
 
   <br>
 
