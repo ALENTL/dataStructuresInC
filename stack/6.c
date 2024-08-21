@@ -15,15 +15,18 @@ int isFull(Stack *stk);
 void push(Stack *stk, char *str);
 char *pop(Stack *stk);
 int isOperator(char ch);
-char *postfixToInfix(char *postfix);
+char *postfixToInfix(Stack *stk, char *postfix);
 
 int main() {
     char postfix[MAX];
+    Stack *stk = malloc(sizeof(Stack));
+
+    initialize(stk);
 
     printf("Enter postfix expression: ");
     scanf("%s", postfix);
 
-    char *infix = postfixToInfix(postfix);
+    char *infix = postfixToInfix(stk, postfix);
     printf("Infix expression: %s\n", infix);
 
     return 0;
@@ -64,22 +67,20 @@ int isOperator(char ch) {
     return ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '%';
 }
 
-char *postfixToInfix(char *postfix) {
-    Stack *stack = malloc(sizeof(Stack));
-    initialize(stack);
+char *postfixToInfix(Stack *stk, char *postfix) {
     char op1[MAX], op2[MAX], temp[MAX * 3];
 
     for (int i = 0; postfix[i] != '\0'; i++) {
         if (!isOperator(postfix[i])) {
             char str[2] = {postfix[i], '\0'};
-            push(stack, str);
+            push(stk, str);
         } else {
-            strcpy(op2, pop(stack));
-            strcpy(op1, pop(stack));
+            strcpy(op2, pop(stk));
+            strcpy(op1, pop(stk));
             sprintf(temp, "(%s%c%s)", op1, postfix[i], op2);
-            push(stack, temp);
+            push(stk, temp);
         }
     }
 
-    return pop(stack);
+    return pop(stk);
 }
