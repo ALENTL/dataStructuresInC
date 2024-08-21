@@ -131,6 +131,26 @@
 - Reverse the postfix expression to obtain prefix
 - Display the prefix expression
 
+### [6. Postfix to Infix using Stack](https://github.com/ALENTL/dataStructuresInC/blob/master/6.c)
+
+- Get postfix expression from the user and store as postfix
+- if operand, push it to the stack
+- if operator, pop 2 elements from the stack, 
+```c
+sprintf(temp, "(%s%c%s)", operand2, operator, operand1)
+```
+- display the infix expression
+
+### [7. Prefix to Infix using Stack](https://github.com/ALENTL/dataStructuresInC/blob/master/7.c)
+
+- Get prefix expression from the user and store as prefix
+- if operand, push it to the stack
+- if operator, pop 2 elements from the stack, 
+```c
+sprintf(temp, "(%s%c%s)", operand1, operator, operand2)
+```
+- display the infix expression
+
 <br>
 
 ## QUEUE
