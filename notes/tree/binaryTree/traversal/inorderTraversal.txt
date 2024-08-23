@@ -1,0 +1,9 @@
+void inorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  inorder(p->left);
+  printf("%s\n", p->info);
+  inorder(p->right);
+}

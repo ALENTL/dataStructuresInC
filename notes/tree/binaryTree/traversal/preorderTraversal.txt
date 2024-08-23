@@ -1,0 +1,9 @@
+void preorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  printf("%c\n", p->info);
+  preorder(p->left);
+  preorder(p->right);
+}

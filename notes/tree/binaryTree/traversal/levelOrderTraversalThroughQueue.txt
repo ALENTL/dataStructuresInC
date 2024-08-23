@@ -1,0 +1,9 @@
+1. Insert root node in the queue
+
+2. Delete a node from the queue and visit it
+
+3. Insert left child of visited node in the queue
+
+4. Insert right child of visited node in the queue
+
+5. Repeat steps 2, 3, 4 till queue becomes empty
