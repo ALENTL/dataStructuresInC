@@ -1,0 +1,25 @@
+Height of a binary tree = 1 + greater(leftHeight, rightHeight)
+
+Follow same process to find the height of all subtrees
+
+Base Case:
+  Height of empty tree is 0
+
+int height(struct Node *p) {
+  int leftHeight, rightHeight;
+
+  if (p == NULL) {
+    return 0;
+  }
+
+  leftHeight = height(p->left);
+  rightHeight = height(p->right);
+
+  if (leftHeight > rightHeight) {
+    return 1 + leftHeight;
+  }
+
+  else {
+    return 1 + rightHeight;
+  }
+}
