@@ -1,0 +1,11 @@
+If there are n nodes in a binary tree, then total number of null links are n + 1
+
+Total number of nodes = n
+Total number of edges = n - 1
+
+Total number of links = 2n
+Links that have addresses = n - 1
+
+Total null links => 2n - (n - 1)
+=> 2n - n + 1
+=> n + 1
