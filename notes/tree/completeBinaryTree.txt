@@ -1,0 +1,23 @@
+All levels have maximum number of nodes except possible the last level
+
+In the last level, number of nodes ranges from 1 to 2^(h-1) and all these nodes are towards the left
+
+Height of a complete binary tree = ceil(log2(n+1))
+
+If a node in a complete binary tree is assigned a number k,
+  where 1 <= k <= n, then,
+    if k == 1,
+      then this node is root node
+
+    if k > 1,
+      then its parent node's number is floor(k/2)
+
+    if 2k > n,
+      then the current node has no left child
+    else,
+      the current node's left child's number is 2k
+
+    if 2k + 1 > n,
+      then the current node has no right child
+    else,
+      the current node's right child's number is 2k + 1
