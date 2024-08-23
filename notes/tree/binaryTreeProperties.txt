@@ -1,0 +1,21 @@
+1. Maximum number of nodes on any level i is 2^i, where i >= 0
+2. In a binary tree of height h, maximum number of nodes = 2^h - 1
+3. In a binary tree of height h, minimum number of nodes = h
+4. For a binary tree with nodes = n, maximum height possible is h.
+5. For a binary tree with nodes = n, minimum height possible is floor(log2(n+1)).
+6. In a non-empty binary tree, where
+    n = number of nodes,
+    e = number of edges,
+then e = n - 1
+Every node has exactly one parent except root node.
+n-1 nodes have exactly one parent.
+There is only one edge between a parent and a child.
+7. In a non empty binary tree, 
+    n0 = number of nodes with no child
+    n2 = number of nodes with 2 child
+then n0 = n2 + 1
+8. In an extended binary tree, if
+    E = external path length
+    I = internal path length
+    n = number of internal nodes
+then E = I + 2n.
