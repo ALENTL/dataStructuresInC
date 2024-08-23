@@ -1,0 +1,16 @@
+Stored in 1-D array
+
+Node numbered k
+Data is stored in tree[k]
+
+If not complete binary tree, we make it complete binary tree and assign the node numbers. For external nodes we don't store value in tree[k], we only set values for internal nodes.
+
+Root node is usually stored at index 1.
+
+When node is k,
+  => Left child: 2k
+  => Right child: 2k + 1
+  => Parent = floor(k/2)
+
+Size of array = h, where
+  h = height of the tree with maximum number of nodes possible
