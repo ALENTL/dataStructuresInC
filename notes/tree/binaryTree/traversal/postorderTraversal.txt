@@ -1,0 +1,9 @@
+void postorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  postorder(p->left);
+  postorder(p->right);
+  printf("%s\n", p->info);
+}

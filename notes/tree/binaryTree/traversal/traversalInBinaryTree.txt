@@ -1,0 +1,26 @@
+Visiting the root node: N
+Traversing its left subtree: L
+Traversing its right subtree: R
+
+Traversal in Binary Tree is usually three types:
+  -> Preorder : NLR
+  -> Inorder  : LNR
+  -> Postorder: LRN
+
+Preorder Traversal:
+  => Visit the root (N)
+  => Traverse the left subtree of the root in preorder (L)
+  => Traverse the right subtree of the root in preorder (R)
+
+Inorder Traversal:
+  => Traverse the left subtree of the root in inorder (L)
+  => Visit the root (N)
+  => Traverse the right subtree of the root inorder (R)
+
+Postorder Traversal:
+  => Traverse the left subtree of the root in postorder (L)
+  => Traverse the right subtree of the root in postorder (R)
+  => Visit the root (N)
+
+Level Order Traversal:
+  Nodes are traversed level by level
