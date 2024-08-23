@@ -1,5 +1,11 @@
 Each empty subtree in a binary tree is replaced by a special node then the resulting tree is extended binary tree.
 
+The nodes from original tree are internal nodes and the special nodes are external nodes
+
+All external nodes are leaf nodes and all internal nodes are non-leaf nodes
+
+Every internal nodes has exactly two children and every external node is a leaf node 
+
 Path length of a node:
     Number of edges traversed from that node to the root node.
     It is the level number of that node.
