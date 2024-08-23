@@ -1,5 +1,0 @@
-A binary tree in which each level has maximum number of nodes
-
-If h is the height of the tree, then it will have 2^h - 1 nodes.
-
-Height of a full binary tree = log2(n+1), where n is the number of nodes

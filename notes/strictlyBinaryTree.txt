@@ -1,2 +1,0 @@
-A strictly binary tree with n leaf nodes has n-1 non-leaf nodes.
-A strictly binary tree with n leaf nodes has 2n-1 non leaf nodes.
