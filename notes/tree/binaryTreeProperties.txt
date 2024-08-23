@@ -31,5 +31,5 @@ then E = I + 2n.
 9. If height of a complete binary tree is h, where h >= 1
   Maximum number of nodes possible is 2^h - 1
   Minimum number of nodes possible is 2^(h-1)
-    ```Maximum number of nodes at h-1th level + 1 node
-    Minimum nodes: (2^(h-1) - 1) + 1 = 2^(h-1)```
+    Maximum number of nodes at h-1th level + 1 node
+    Minimum nodes: (2^(h-1) - 1) + 1 = 2^(h-1)
