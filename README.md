@@ -304,6 +304,97 @@ hanoi(n, source, destination, tempSource)
 
 ### [1. Binary Tree - Linked List Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/binaryTree/1.c)
 
+- Creating a binary tree
+- Finding height of the binary tree
+
+```c
+int height(struct Node *p) {
+  int leftHeight, rightHeight;
+
+  if (p == NULL) {
+    return 0;
+  }
+
+  leftHeight = height(p->left);
+  rightHeight = height(p->right);
+
+  if (leftHeight > rightHeight) {
+    return 1 + leftHeight;
+  }
+
+  else {
+    return 1 + rightHeight;
+  }
+}
+```
+
+- Pre Order Traversal
+
+```c
+void preorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  printf("%c\n", p->info);
+  preorder(p->left);
+  preorder(p->right);
+}
+```
+
+- Inorder Traversal
+
+```c
+void inorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  inorder(p->left);
+  printf("%s\n", p->info);
+  inorder(p->right);
+}
+```
+
+- Post Order Traversal
+
+```c
+void postorder(struct Node *p) {
+  if (p == NULL) {
+    return;
+  }
+
+  postorder(p->left);
+  postorder(p->right);
+  printf("%s\n", p->info);
+}
+```
+
+- Level Order Traversal
+
+```c
+void levelOrder(Queue *q, Tree *p) {
+  if (p == NULL) {
+    printf("Tree is empty!\n");
+    return;
+  }
+
+  insertQueue(q, p);
+
+  while (!isQueueEmpty(q)) {
+    p = deleteQueue(q);
+    printf("%c ", p->info);
+
+    if (p->left != NULL) {
+      insertQueue(q, p->left);
+    }
+    if (p->right != NULL) {
+      insertQueue(q, p->right);
+    }
+  }
+}
+```
+
 <br>
 
 ## BINARY SEARCH TREE
