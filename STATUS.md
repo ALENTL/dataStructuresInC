@@ -143,9 +143,21 @@
 
   <br>
 
+- [x] **Binary Tree**
+
+    - [x] Linked list representation
+        - [x] Creating tree
+        - [x] Finding height of the tree
+        - [x] Displaying in preorder
+        - [x] Displaying in inorder
+        - [x] Displaying in postorder
+        - [x] Displaying in InOrder
+
 ## **IN PROGRESS**
 
 - [ ] **Binary Tree**
+    - [ ] Traversal
+    - [ ] Construction
 
 ## **TODO**
 
