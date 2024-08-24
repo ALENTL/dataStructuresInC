@@ -150,11 +150,11 @@ void initializeQueue(Queue *q) {
 }
 
 int isQueueFull(Queue *q) {
-  return q->rear == MAX - 1;
+  return ((q->front == 0 && q->rear == MAX - 1) || q->front == q->rear + 1);
 }
 
 int isQueueEmpty(Queue *q) {
-  if (q->front == -1 || q->front == q->rear + 1) {
+  if (q->front == -1) {
     return 1;
   }
   return 0;
@@ -170,7 +170,15 @@ void insertQueue(Queue *q, Tree *item) {
     q->front = 0;
   }
 
-  q->queue[++q->rear] = item;
+  if (q->rear == MAX - 1) {
+    q->rear = 0;
+  }
+
+  else {
+    q->rear++;
+  }
+
+  q->queue[q->rear] = item;
 }
 
 Tree *deleteQueue(Queue *q) {
@@ -181,7 +189,19 @@ Tree *deleteQueue(Queue *q) {
     exit(1);
   }
 
-  item = q->queue[q->front++];
+  item = q->queue[q->front];
+
+  if (q->front == q->rear) {
+    q->front = q->rear = -1;
+  }
+
+  else if (q->front == MAX - 1) {
+    q->front = 0;
+  }
+
+  else {
+    q->front++;
+  }
 
   return item;
 }
