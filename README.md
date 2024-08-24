@@ -302,6 +302,10 @@ hanoi(n, source, destination, tempSource)
 
 ## BINARY TREE
 
+### [1. Binary Tree - Linked List Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/binaryTree/1.c)
+
+<br>
+
 ## BINARY SEARCH TREE
 
 ## HEAP
