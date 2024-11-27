@@ -1,0 +1,5 @@
+1. Insert the nodes from postorder traversal one by one in the tree, starting from the end
+
+2. In inorder traversal, mark the nodes which have been inserted
+
+3. A node is inserted according to its position with respect to marked nodes in inorder traversal
