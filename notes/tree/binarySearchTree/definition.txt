@@ -1,0 +1,7 @@
+A binary search tree is a binary tree which is either empty or has the following properties
+
+1. All the keys in the left subtree of the root are less than the key in the root
+
+2. All the keys in the right subtree of the root are greater than the key in the root
+
+3. Left and right subtrees of root are also binary search tree'

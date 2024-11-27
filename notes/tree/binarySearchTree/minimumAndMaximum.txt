@@ -1,0 +1,23 @@
+struct Node *min(struct Node *p) {
+  if (p == NULL) {
+    return NULL;
+  }
+
+  while (p -> lchild != NULL) {
+    p = p->lchild;
+  }
+
+  return p;
+}
+
+struct Node *max(struct Node *p) {
+  if (p == NULL) {
+    return NULL;
+  }
+
+  while (p->rchild != NULL) {
+    p = p->rchild;
+  }
+
+  return p;
+}
