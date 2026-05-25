@@ -38,7 +38,7 @@
     A tree inside a tree
 
 14. Degree:
-    The number of subtrees or children of a node
+    The number of sub-trees or children of a node
 
 15. Forest:
     Set of n disjoint trees where n >= 0

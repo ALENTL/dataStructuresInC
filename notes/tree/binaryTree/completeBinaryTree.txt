@@ -1,8 +1,8 @@
-All levels have maximum number of nodes except possible the last level
+All levels have maximum number of nodes except possible the last level.
 
-In the last level, number of nodes ranges from 1 to 2^(h-1) and all these nodes are towards the left
+In the last level, number of nodes ranges from 1 to 2^(h-1) and all these nodes are towards the left.
 
-Height of a complete binary tree = ceil(log2(n+1))
+Height of a complete binary tree = ceil(log₂(n+1)).
 
 If a node in a complete binary tree is assigned a number k,
   where 1 <= k <= n, then,

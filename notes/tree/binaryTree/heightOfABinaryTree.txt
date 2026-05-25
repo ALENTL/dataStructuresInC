@@ -1,6 +1,6 @@
 Height of a binary tree = 1 + greater(leftHeight, rightHeight)
 
-Follow same process to find the height of all subtrees
+Follow same process to find the height of all sub-trees
 
 Base Case:
   Height of empty tree is 0

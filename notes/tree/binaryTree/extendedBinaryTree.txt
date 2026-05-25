@@ -1,4 +1,4 @@
-Each empty subtree in a binary tree is replaced by a special node then the resulting tree is extended binary tree.
+Each empty sub-tree in a binary tree is replaced by a special node then the resulting tree is extended binary tree.
 
 The nodes from original tree are internal nodes and the special nodes are external nodes
 
