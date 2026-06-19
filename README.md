@@ -3,7 +3,7 @@
 ## LINKED LIST
 
 <details>
-<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">Single Linked List</a></h3></summary>
+<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">1. Single Linked List</a></h3></summary>
 
 - Create a linked list
 - Inserting first element to linked list
@@ -21,28 +21,37 @@
 - Reverse the list
 </details>
 
-### [2. Sorting of Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c)
+<details>
+<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c">2. Sorting of Single Linked List</a></h3></summary>
 
 - Sort by exchanging data
 - Sort by exchanging nodal links
+</details>
 
-### [3. Merge two sorted lists](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/3.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/3.c"></a>3. Merge two sorted lists</h3></summary>
 
 - Merging by creating a new list
 - Merging by rearranging links
+</details>
 
-### [4. Sorting a List using Merge Sort Algorithm](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/4.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/4.c"></a>4. Sorting a List using Merge Sort Algorithm</h3></summary>
 
 - Using recursion to sort a linked list using merge sort algorithm
+</details>
 
-### [5. Solving a Cycle List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/5.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/5.c"></a>5. Solving a Cycle List</h3></summary>
 
 - Solving a list having cycle with Floyd's cycle detection algorithm
   - Inserting a cycle
   - Find the cycle
   - Removing the cycle
+</details>
 
-### [6. Doubly Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/6.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/6.c"></a>6. Doubly Linked List</h3></summary>
 
 - Linked list consisting of prev and next pointers and a data for each node
   - Create a doubly linked list
@@ -58,8 +67,10 @@
     - Deletion in between nodes
     - Deletion in last node
   - Reverse the list
+</details>
 
-### [7. Circular Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/7.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/7.c"></a>7. Circular Linked List</h3></summary>
 
 - Display the list
 - Insertion
@@ -69,8 +80,10 @@
   - Insertion after a node
 - Deletion
 - Concatenation of the list
+</details>
 
-### [8. Linked List with Header Node](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/8.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/8.c"></a>8. Linked List with Header Node</h3></summary>
 
 - Create List
 - Insertion
@@ -79,11 +92,14 @@
   - At position
 - Delete Node
 - Reverse
+</details>
 
-### [9. Sorted Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/9.c)
+<details>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/9.c"></a>9. Sorted Linked List</h3></summary>
 
 - Insert as sorted
 - Search for the element
+</details>
 
 <br>
 
