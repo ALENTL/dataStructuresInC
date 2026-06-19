@@ -1,0 +1,11 @@
+1. Selection Algorithm:
+  -> Used in problems where largest or smallest value has to be found
+    -> Finding kᵗʰ largest element
+      => Heap is built and then root is deleted k times.
+
+2. Implementation of Priority Queue:
+  -> Queue: Insertion is O(1) and deletion is O(n)
+  -> Sorted List: Insertion is O(n) and deletion is O(1)
+  -> Heap: Insertion and deletion is O(log n)
+
+3. Heap Sort
