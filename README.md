@@ -4,6 +4,7 @@
 
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">1. Single Linked List</a></h3></summary>
+
 - Create a linked list
 - Inserting first element to linked list
 - Inserting more elements to the end list
