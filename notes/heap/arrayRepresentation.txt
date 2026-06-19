@@ -1,0 +1,9 @@
+Array Representation:
+  Root                              - index 1
+  left child of node N at index i   - index 2i
+  Right child of node N at index i  - index 2i + 1 
+  Parent of node at index i         - index floor(i/2)
+
+Say heap size: n
+Then the array used will be:
+  a[1], a[2], a[3], ..., a[n]
