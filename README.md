@@ -20,27 +20,23 @@
 - Delete a node at the end
 - Reverse the list
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c">2. Sorting of Single Linked List</a></h3></summary>
 
 - Sort by exchanging data
 - Sort by exchanging nodal links
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/3.c"></a>3. Merge two sorted lists</h3></summary>
 
 - Merging by creating a new list
 - Merging by rearranging links
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/4.c"></a>4. Sorting a List using Merge Sort Algorithm</h3></summary>
 
 - Using recursion to sort a linked list using merge sort algorithm
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/5.c"></a>5. Solving a Cycle List</h3></summary>
 
@@ -49,7 +45,6 @@
   - Find the cycle
   - Removing the cycle
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/6.c"></a>6. Doubly Linked List</h3></summary>
 
@@ -68,7 +63,6 @@
     - Deletion in last node
   - Reverse the list
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/7.c"></a>7. Circular Linked List</h3></summary>
 
@@ -81,7 +75,6 @@
 - Deletion
 - Concatenation of the list
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/8.c"></a>8. Linked List with Header Node</h3></summary>
 
@@ -93,14 +86,12 @@
 - Delete Node
 - Reverse
 </details>
-
 <details>
   <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/9.c"></a>9. Sorted Linked List</h3></summary>
 
 - Insert as sorted
 - Search for the element
 </details>
-
 <br>
 
 ## STACK
