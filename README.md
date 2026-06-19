@@ -302,7 +302,7 @@ hanoi(n, source, destination, tempSource)
 
 ## BINARY TREE
 
-### [1. Binary Tree - Linked List Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/binaryTree/1.c)
+### [1. Binary Tree - Tree Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/binaryTree/1.c)
 
 - Creating a binary tree
 - Finding height of the binary tree
@@ -398,6 +398,16 @@ void levelOrder(Queue *q, Tree *p) {
 <br>
 
 ## BINARY SEARCH TREE
+
+### [1. Binary Search Tree - Tree Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/binarySearchTree/1.c)
+- Creating a Binary Search Tree
+- Inserting nodes to Binary Search Tree
+- Deleting node from a Binary Search Tree
+- Searching a node in the Binary Search Tree
+- Finding the smallest element from the Binary Search Tree
+- Finding the largest element from the Binary Search Tree
+- Find tree height
+- To display InOrder, PreOrder and PostOrder Traversal results.
 
 ## HEAP
 
