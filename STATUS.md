@@ -145,23 +145,60 @@
 
 - [x] **Binary Tree**
 
-    - [x] Linked list representation
+    - [x] Tree Representation
         - [x] Creating tree
         - [x] Finding height of the tree
         - [x] Displaying in preorder
         - [x] Displaying in inorder
         - [x] Displaying in postorder
         - [x] Displaying in InOrder
+        - [x] Traversal
+        - [x] Conversion
+
+  <br>
+
+- [x] Binary Search Tree
+
+    - [x] Tree Representation
+        - [x] Creating a Binary Search Tree
+        - [x] Inserting nodes to Binary Search Tree
+        - [x] Deleting node from a Binary Search Tree
+        - [x] Searching a node in the Binary Search Tree
+        - [x] Finding the smallest element from the Binary Search Tree
+        - [x] Finding the largest element from the Binary Search Tree
+        - [x] Find tree height
+        - [x] To display InOrder, PreOrder and PostOrder Traversal results.
+
+  <br>
+
+- [x] Heap
+
+    - [x] Heap Representation
+        - [x] Creating and inserting elements to minimum and maximum heap
+        - [x] Check and resize the heap
+        - [x] Sift Up (Restore Up) and Sift Down (Restore Down) implementation for both minimum and maximum heap
+        - [x] Pop and display minimum node from minHeap and maximum node from maxHeap
+
+  <br>
 
 ## **IN PROGRESS**
 
-- [ ] **Binary Tree**
-    - [ ] Traversal
-    - [ ] Construction
+- [ ] **Sorting Algorithms
+    - [ ] Selection Sort
+    - [ ] Bubble Sort
+    - [ ] Insertion Sort
+    - [ ] Shell Sort
+    - [ ] Recursive Merge Sort
+    - [ ] Iterative Merge Sort
+    - [ ] Quick Sort
+    - [ ] Binary Tree Sort
+    - [ ] Heap Sort
+    - [ ] Radix Sort
+    - [ ] Address Calculation Sort
+    - [ ] Sorting Records
 
 ## **TODO**
 
-- [ ] **Binary Search Tree**
 - [ ] **AVL Tree**
 - [ ] **Threaded Binary Tree**
 - [ ] **Expression Tree**
