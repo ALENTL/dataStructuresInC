@@ -1,0 +1,12 @@
+Heap is a Complete Binary Tree with these two properties: 
+
+-> Structure Property:
+  All levels have maximum number of nodes except possibly the last level.
+  In the last level, all the nodes are to the left.
+
+-> Heap Order Property:
+  1. Max-Heap:
+    Key in any node N is greater than or equal to the keys in both children of N.
+
+  2. Min-Heap:
+    Key in any node N is smaller than or equal to the keys in both children of N.
