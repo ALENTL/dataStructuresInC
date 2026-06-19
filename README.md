@@ -3,7 +3,7 @@
 ## LINKED LIST
 
 <details>
-<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">1. Single Linked List</a></h3></summary>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">1. Single Linked List</a></h3></summary>
 
 - Create a linked list
 - Inserting first element to linked list
@@ -22,7 +22,7 @@
 </details>
 
 <details>
-<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c">2. Sorting of Single Linked List</a></h3></summary>
+  <summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c">2. Sorting of Single Linked List</a></h3></summary>
 
 - Sort by exchanging data
 - Sort by exchanging nodal links
