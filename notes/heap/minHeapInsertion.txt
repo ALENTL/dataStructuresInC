@@ -1,0 +1,18 @@
+If NULL:
+  Insert a new element to index 1
+
+If not NULL:
+  current_index = size + 1
+  -> while current_index > 1 (that is greater than root node) and parent key > new_element:
+    => Move parent key down to current index
+    => Move current index to parent key's index 
+  -> Insert new element to final current_index slot.
+
+Cases:
+1. Worst Case:
+  Move from leaf node to root node
+  Complexity: O(log n)
+
+2. Best Case:
+  Don't need to move the nodes
+  Complexity: O(1)
