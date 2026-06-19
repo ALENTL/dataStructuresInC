@@ -183,7 +183,7 @@
 
 ## **IN PROGRESS**
 
-- [ ] **Sorting Algorithms
+- [ ] **Sorting Algorithms**
     - [ ] Selection Sort
     - [ ] Bubble Sort
     - [ ] Insertion Sort
