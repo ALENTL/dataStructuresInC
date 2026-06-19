@@ -2,7 +2,8 @@
 
 ## LINKED LIST
 
-### [1. Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c)
+<details>
+<summary><h3><a href="https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/1.c">Single Linked List</a></h3></summary>
 
 - Create a linked list
 - Inserting first element to linked list
@@ -18,6 +19,7 @@
 - Delete a node in between nodes
 - Delete a node at the end
 - Reverse the list
+</details>
 
 ### [2. Sorting of Single Linked List](https://github.com/ALENTL/dataStructuresInC/blob/master/linkedList/2.c)
 
@@ -420,13 +422,3 @@ void levelOrder(Queue *q, Tree *p) {
 - Pop and display minimum node from minHeap and maximum node from maxHeap
 
 <br>
-
-## AVL TREE
-
-## THREADED BINARY TREE
-
-## EXPRESSION TREE
-
-## B TREE
-
-## GRAPH
