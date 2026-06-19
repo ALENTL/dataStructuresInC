@@ -409,7 +409,17 @@ void levelOrder(Queue *q, Tree *p) {
 - Find tree height
 - To display InOrder, PreOrder and PostOrder Traversal results.
 
+<br>
+
 ## HEAP
+
+### [1. Heap - Heap Representation](https://github.com/ALENTL/dataStructuresInC/blob/master/heap/1.c)
+- Creating and inserting elements to minimum and maximum heap
+- Check and resize the heap
+- Sift Up (Restore Up) and Sift Down (Restore Down) implementation for both minimum and maximum heap
+- Pop and display minimum node from minHeap and maximum node from maxHeap
+
+<br>
 
 ## AVL TREE
 
